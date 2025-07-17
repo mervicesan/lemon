@@ -99,9 +99,9 @@ const About = () => {
                   </h4>
                   <div className="grid grid-cols-2 gap-6">
                     {stats.map((stat, index) => (
-                      <div key={index} className={`text-center p-4 rounded-lg transition-all duration-300 ${stat.glowColor} hover:shadow-lg`}>
+                      <div key={index} className="text-center">
                         <div className="w-12 h-12 mx-auto mb-3 bg-primary/10 rounded-full flex items-center justify-center">
-                          <stat.icon className={`h-6 w-6 ${stat.iconColor}`} />
+                          <stat.icon className="h-6 w-6 text-primary" />
                         </div>
                         <div className="text-2xl font-bold text-primary mb-1">
                           {stat.number}

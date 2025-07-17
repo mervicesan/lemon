@@ -79,7 +79,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen pt-0">
       <Header />
       
       {/* Hero Section */}
